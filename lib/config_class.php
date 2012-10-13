@@ -1,14 +1,14 @@
 <?php
 	class Config
 	{
-		public $site_name = 'MinecraftGO';
-		public $site_url = 'localhost';
-		public $site_version = '0.1';
+		public $site_name = 'MinecraftGO';	//SITE NAME
+		public $site_url = 'localhost';		//SITE URL
+		public $site_version = '3c5c568';	//USUALLY GIT COMMIT #
 
-		private $db_host = 'localhost';
-		private $db_user = 'root';
-		private $db_pass = 'pass';
-		private $db_name = 'mcGO';
+		private $db_host = 'localhost';		//DB HOST
+		private $db_user = 'root';			//DB USER
+		private $db_pass = 'pass';			//DB PASS
+		private $db_name = 'mcGO';			//DB NAME
 
 		public function __construct()
 		{
